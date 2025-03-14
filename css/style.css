@@ -1,0 +1,38 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+th {
+  background-color: rgb(14, 128, 128);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+td:nth-child(1) {
+  text-align: center;
+}
+
+td:nth-child(2) {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+td:nth-child(3) {
+  text-align: center;
+  color: grey;  
+}
+
+#total {
+  background-color: beige;
+  font-weight: bold;
+  font-size: 18px;
+}
